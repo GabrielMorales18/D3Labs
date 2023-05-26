@@ -13,7 +13,7 @@ var rectangles = svg.selectAll("rect")
 rectangles.enter()
     .append("rect")
         .attr("x", (d,i) => { return i * 60 + 100})
-        .attr("y", (d,i) => { return i * 5 + 10 0})
+        .attr("y", (d,i) => { return i * 5 + 100})
         .attr("width", 40)
         .attr("height", (d) =>{ return d; })
         .attr("fill","gray");

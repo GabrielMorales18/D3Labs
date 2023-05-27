@@ -1,0 +1,39 @@
+#chart-area svg {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#logo {
+	height:50px;
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 5px 0px;
+}
+
+.btn{
+	background-color: rgb(158, 209, 255);
+	color:black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#botones{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
